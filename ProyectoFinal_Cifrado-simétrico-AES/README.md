@@ -1,24 +1,28 @@
-# TAREA 3 Diffie-Hellman
+# Proyecto Final - Cifrado simétrico AES
 
 ## Explicación básica
-Diffie-Hellman es un protocolo para poder pasar llaves entre usuarios de forma encriptada, consta de un número primo muy grande acordado previamente, una llave publica que es otro numero pero que ambos usuarios pueden observar 
+El algoritmo de cifrado AES (Advanced Encryption Standard) es un algoritmo de cifrado simétrico por bloques ampliamente utilizado para proteger la confidencialidad de la información. Cifra datos en bloques de 128 bits utilizando claves de 128, 192 o 256 bits. 
+Es considerado uno de los algoritmos más seguros, resistente a ataques de fuerza bruta y otros tipos de criptoanálisis. 
+Se utiliza en diversas aplicaciones, incluyendo la seguridad de conexiones en la web (HTTPS), la protección de datos en routers (WPA2) y la seguridad de datos en el almacenamiento en la nube. 
 
 ## Descripción del proyecto
 
-El proyecto fue realizado en python, por desgracia, pero con suerte y tiempo libre espere que lo suba en lenguaje C.
-
+El siguiente proyecto fue realizado en python y muestra, de forma desglosada el algoritmo de cifrado simétrico AES sin el uso de las librerias predefinidas por ptyhon para este algoritmo.
+Adicionalmente se coloca un segundo proyecto "Proyecto02" que hace uso de dichas librerias para hacer pruebas y comprobar los resultados entregados por "Proyecto01"
 
 ## Ejecución del proyecto
 
 El proyecto puede ejecutarse en cualquier ambiente de python ya sea visual studio code pero confío en que tendrá instalado python y por lo tanto podrá ejecutarlo desde terminal de la siguiente manera:
 
-python3 DiffieHellman.py
+python3 Proyecto01.py
 
 Le aparecerá algo como lo siguiente:
 
-Ingrese la llave publica A :_
+Ingresa el texto a cifrar: <ingresa tu texto ej.Hola como estas mundo>
+Ingresa la clave (16 caracteres): <ingresa tu clave ej.abcdefghijklmnop>
+Mensaje cifrado (hex): <Resultado:256777525682CCE870D848F951F0444442FDBF99FC37CD083697D9FEC4F03CBC>
 
-Deberá poner un numero entero para ambas llaves publicas y se les mostrarán los prints de todo el proceso y al final se espera que se llegue a una sola clave compartida entre ambos usuarios. 
+Si ejecutas el programa Proyecto 02 con el mismo mensaje y clave observarás como dan el mismo resultado 
 
 ## Enserio aún sin python?
 
