@@ -4,7 +4,7 @@
 #   Proyecto final - Cifrado simétrico AES
 # 
 #   Integrantes:
-#       - Rivera Gonzáles Frida Alison
+#       - Rivera González Frida Alison
 #       - Frías Hernández Camille Emille Román
 #       - Hernández Vázquez Daniela 
 #       - Zamudio González Nathalia Danae
